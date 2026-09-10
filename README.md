@@ -1,65 +1,75 @@
 # HackerRank Solutions
 
-A collection of my **HackerRank coding solutions**, maintained on GitHub as part of my continuous **Data Structures, Algorithms, and Problem-Solving practice**.
+<p align="center">
+  <b>My coding practice and problem-solving journey on HackerRank</b>
+</p>
 
-> Solutions are automatically documented and pushed to this repository using **PrepPush**.
+<p align="center">
+  Python • C • Java • Data Structures • Algorithms
+</p>
 
 ---
 
-## 🎯 Purpose
+## 📌 About
 
-This repository serves as my coding practice archive for:
+This repository contains my solutions to **HackerRank programming challenges**, maintained as part of my continuous practice in **Data Structures, Algorithms, and Problem Solving**.
 
-* 🧩 Data Structures & Algorithms
-* 🧠 Problem Solving
+Solutions are automatically documented and pushed to this repository using **PrepPush**.
+
+---
+
+## 🎯 What I'm Practising
+
+* 🧩 Data Structures
+* 🧠 Algorithms
 * 🐍 Python Programming
 * 💻 C Programming
 * ☕ Java Programming
-* 🎯 Technical Interview Preparation
-
-The goal is to consistently practise different problem-solving patterns and maintain a structured record of solved challenges.
+* 🔢 Problem Solving
+* 🎯 Technical Coding Assessments
+* 💼 Interview Preparation
 
 ---
 
 ## 📂 Repository Structure
 
-Solutions are organised automatically by **PrepPush** according to language, difficulty, and problem.
+The solutions are organised automatically by PrepPush.
 
 ```text
 solutions/
+├── python/
+│   ├── easy/
+│   ├── medium/
+│   └── hard/
+│
 ├── c/
 │   ├── easy/
 │   ├── medium/
 │   └── hard/
 │
-├── java/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-│
-└── python/
+└── java/
     ├── easy/
     ├── medium/
     └── hard/
 ```
 
-Individual solutions may contain the problem link, solution approach, and complexity information when available.
+The exact structure may evolve as new solutions are added through the automated workflow.
 
 ---
 
-## 🛠️ Languages
+## 💻 Languages
 
-| Language  | Focus                                    |
-| --------- | ---------------------------------------- |
-| 🐍 Python | Problem solving & algorithms             |
-| 💻 C      | Programming fundamentals & algorithms    |
-| ☕ Java    | Object-oriented programming & algorithms |
+| Language  | Purpose                               |
+| --------- | ------------------------------------- |
+| 🐍 Python | Algorithms & problem solving          |
+| 💻 C      | Programming fundamentals & algorithms |
+| ☕ Java    | OOP & algorithmic problem solving     |
 
 ---
 
-## 📚 Practice Areas
+## 🧠 Problem-Solving Areas
 
-My HackerRank practice includes problems related to:
+My practice covers problems involving:
 
 * Arrays
 * Strings
@@ -72,42 +82,43 @@ My HackerRank practice includes problems related to:
 * Problem Solving
 * SQL
 * Basic Programming
-* Interview-style coding challenges
+* Interview-style Challenges
 
 ---
 
-## ⚙️ Automation
+## ⚙️ Automated Workflow
 
-This repository uses **PrepPush** to automatically document accepted HackerRank solutions and push them to GitHub.
+This repository uses **PrepPush** to automatically document and push my HackerRank solutions to GitHub.
 
-The automated workflow helps keep the repository organised while allowing me to focus on solving problems rather than manually maintaining every solution file.
+This allows me to maintain a structured coding portfolio while keeping the solution files organised automatically.
 
-> **Important:** The solution directories and generated solution files are maintained by the automation workflow. The README provides the overall documentation for the repository.
-
----
-
-## 📈 Why This Repository?
-
-I maintain this repository to:
-
-* Build consistency in competitive programming
-* Strengthen Data Structures & Algorithms fundamentals
-* Improve coding speed and problem-solving ability
-* Prepare for technical assessments and interviews
-* Track my programming practice over time
-* Maintain a searchable portfolio of solved problems
+> **Note:** The solution directories and generated solution files are maintained by PrepPush. The README is maintained separately as the documentation for this repository.
 
 ---
 
-## 🔗 Related Coding Practice
+## 📈 Why I Maintain This Repository
 
-### LeetCode Solutions
+This repository helps me:
 
-I also maintain a separate repository for my LeetCode solutions:
+* Build consistency in coding practice
+* Strengthen DSA fundamentals
+* Improve problem-solving skills
+* Prepare for technical assessments
+* Prepare for software and ML engineering interviews
+* Track my progress through solved problems
+* Maintain a public record of my coding practice
 
-👉 **[AnkithR10/LeetCode-Solutions](https://github.com/AnkithR10/LeetCode-Solutions)**
+---
 
-Together, these repositories document my ongoing preparation in **DSA, algorithms, and technical problem solving**.
+## 🔗 Other Coding Practice
+
+### 🟨 LeetCode
+
+I also maintain a separate repository containing my LeetCode solutions.
+
+**[→ View LeetCode Solutions](https://github.com/AnkithR10/LeetCode-Solutions)**
+
+Together, my HackerRank and LeetCode repositories document my ongoing **DSA and technical interview preparation**.
 
 ---
 
@@ -117,13 +128,15 @@ I'm **Ankith R**, an MCA student specialising in **Artificial Intelligence & Dat
 
 My primary interests include:
 
-**Machine Learning • Data Science • Artificial Intelligence • NLP • Data Analytics • Algorithms**
+**Artificial Intelligence • Machine Learning • Data Science • NLP • Data Analytics • Algorithms**
 
-### Connect
+### Connect With Me
 
-* 💼 [LinkedIn](https://www.linkedin.com/in/ankith-r-/)
-* 🐙 [GitHub](https://github.com/AnkithR10)
+* 💼 **LinkedIn:** [Ankith R](https://www.linkedin.com/in/ankith-r-/)
+* 🐙 **GitHub:** [AnkithR10](https://github.com/AnkithR10)
 
 ---
 
-⭐ If you find this repository useful, feel free to explore the solutions and follow my coding journey.
+<p align="center">
+  <i>Keep solving. Keep learning. Keep improving. 🚀</i>
+</p>
