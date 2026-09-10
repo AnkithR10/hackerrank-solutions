@@ -7,6 +7,12 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-09-10, 10:41 p.m.
+# Technique   algebraic-linear-equation-solver
+# Time        O(1)
+# Space       O(1)
+# Insight     The kangaroos meet if and only if the relative distance between them is perfectly divisible by the difference in their jump velocities, provided the trailing kangaroo is faster.
+# Interview   Before: "I could simulate the jumps in a loop until they meet or pass each other." After: "Since the positions follow a linear equation, I can solve for the number of jumps in O(1) time, ensuring the relative velocity is positive and the distance gap is divisible by that velocity."
+# Pitfalls    (1) Failing to handle the case where v1 <= v2, which leads to division by zero or incorrect results.  (2) Assuming that any positive integer solution for n is valid without checking if the remainder of (x2 - x1) / (v1 - v2) is zero.  (3) Neglecting the constraint that the trailing kangaroo must be faster to ever close the initial distance gap.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
