@@ -7,6 +7,12 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-09-10, 10:39 p.m.
+# Technique   modulo-arithmetic-conditional-rounding
+# Time        O(n)
+# Space       O(n)
+# Insight     The algorithm iterates through each grade, applying the rounding rule only if the grade is at least 38 and the difference to the next multiple of five is less than three.
+# Interview   Before: "I would check every grade and manually calculate the next multiple of five." After: "I implemented a O(n) solution using modulo arithmetic to identify the distance to the next multiple of five, ensuring grades below 38 remain unchanged as per the policy."
+# Pitfalls    (1) Failing to account for the grade threshold of 38, which prevents rounding for failing grades that would otherwise meet the distance criteria.  (2) Incorrectly rounding grades where the difference to the next multiple of five is exactly 3, as the rule requires the difference to be strictly less than 3.
 # ──────────────────────────────────────────────────
 
 #!/bin/python3
