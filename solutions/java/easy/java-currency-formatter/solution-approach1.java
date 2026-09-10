@@ -7,6 +7,12 @@
 // Language    java
 // Status      Accepted
 // Submitted   2026-09-10, 10:36 p.m.
+// Technique   locale-based-number-formatting
+// Time        O(1)
+// Space       O(1)
+// Insight     The solution utilizes the Java NumberFormat class to apply locale-specific currency formatting rules to a double-precision input.
+// Interview   Before: "How would you format a currency value for different countries?" After: "I would use NumberFormat.getCurrencyInstance with the appropriate Locale. For India, I construct a custom Locale using 'en' and 'IN' because it lacks a built-in constant. This approach runs in O(1) time and space."
+// Pitfalls    (1) Failing to construct the custom India locale with the correct language 'en' and country 'IN' as specified in the problem requirements.  (2) Assuming all required locales are available as static constants in the Locale class, ignoring the need for custom instantiation.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
